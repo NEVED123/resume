@@ -4,4 +4,4 @@ I chose to create my resume using LaTeX, giving finer control over spacing and f
 
 Feel free to use this template for inspiration. 
 
-![Resume Preview](https://github.com/NEVED123/resume/blob/80889cef08a34a7d722fc9d5b61bba3f775882ac/Resume.png)
+![Resume Preview](https://github.com/NEVED123/resume/blob/01f644ee1c9b1df9e1382239b58a6f09900ebfcf/Resume.png)
