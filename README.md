@@ -1,7 +1,5 @@
 # My Resume
 
-When revising my resume from last year, I chose to recreate it using LaTeX, giving fine control over spacing and formatting.
-
-Created with MikTeX, which handles all package importing automatically, and is best for editing this document.
+I chose to create my resume using LaTeX, giving finer control over spacing and formatting, than tools such as Microsoft Word.
 
 Feel free to use this template for inspiration. 
