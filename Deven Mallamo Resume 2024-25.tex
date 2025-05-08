@@ -29,14 +29,14 @@
 
 %%% Define Personal Info %%%
 \newcommand{\name}{Deven Mallamo}
-\newcommand{\address}{Rochester, Michigan} 
+\newcommand{\address}{Rochester, \hspace{49152sp}Michigan} 
 \newcommand{\phone}{REDACTED_PHONE} 
 \newcommand{\email}{REDACTED_EMAIL} 
 \newcommand{\linkedin}{Deven Mallamo}
 \newcommand{\github}{NEVED123}
 
 %%% Define Colors %%%
-\definecolor{boxfill}{RGB}{111, 145,160} %Border : #405762
+\definecolor{boxfill}{RGB}{255,255,255} %Border : #405762
 \definecolor{boxframe}{RGB}{64, 87,98}  % Fill: #6F91A0
 
 %%% Resume begins here %%%
@@ -46,15 +46,15 @@
 \begin{tcolorbox}[colback= boxfill,colframe=boxframe]
 	\begin{center}
 		\vspace{5pt}
-		\href{https://www.devenmallamo.com}{\Huge \textbf \name} 
+		\Huge \textbf \name
 
 		\normalsize \vspace{10pt}
 
 		\faHome \space \address \space | 
-		\faPhone \space \phone \space |
-		\href{mailto:\email}{\faEnvelope \space \email} \space | 
-		\href{https://www.linkedin.com/in/deven-mallamo/}{\faLinkedin \space \linkedin} \space | 
-		\href{https://github.com/NEVED123}{\faGithub \space \github} 
+		\space \faPhone \space \phone \space \space |
+		\space \href{mailto:\email}{\faEnvelope \space \email} \space | 
+		\href{https://www.linkedin.com/in/deven-mallamo/}{\space \faLinkedin \space \linkedin} \space | 
+		\href{https://github.com/NEVED123}{\space \faGithub \space \github} 
 	\end{center}
 \end{tcolorbox}
 
@@ -65,9 +65,7 @@
 
 \vspace{.2ex}	
 
-Senior computer science student at Oakland University currently working as a Junior Software Development Engineer at Amazon. Proficient in many programming languages and software development tools. Passionate about creating, 
-
-programming, learning new skills and tools, solving problems, and helping others.
+Software Development Engineer at Amazon with experience designing and deploying software for millions of customers. Passionate about creating, programming, learning new skills and tools, solving problems, and helping others.
 
 \vspace{.5ex}	
 
@@ -77,7 +75,7 @@ programming, learning new skills and tools, solving problems, and helping others
 
 \vspace{.2ex}	
 
-Oakland University - GPA: 3.96 \hfill Expected Graduation: May 2025
+Oakland University - GPA: 3.96 \hfill Graduated April 2025
 
 % Cursed horizontal space because the italics font puts the period too close to the A. It is equal to .75pt (65536 * .75), however Latex does not allow fractional pts.
 \textit {B.S in Computer Science, B.\hspace{49152sp}A in Piano Performance} 
@@ -88,13 +86,14 @@ Oakland University - GPA: 3.96 \hfill Expected Graduation: May 2025
 
 \resumesection{Work Experience}
 
-\subsection*{Junior Software Development Engineer} 
+\subsection*{Software Development Engineer} 
 
 \textit{Amazon.com, Inc. - Detroit, MI} \hfill {January 2024 - Present}
 
 \begin{itemize}
-	\item Currently working in Seller Central on account authorization and access control for employees of Amazon sellers.
-	\item Built up full-stack tooling with AWS services and Vue to provide metadata for roles that account owners can assign to their employees, allowing for easier use of the product, and increased team productivity by preventing questions from reaching the team about the specific roles.
+	\item Working in Vendor Central to improve code quality, allowing engineers to iterate quicker on bug fixes and new features to ensure Amazon vendors the best possible experience.
+	\item Built a feature on the Seller Central user permissions page to provide metadata for roles that account owners can assign to their employees, giving more transparency about what pages and features specific roles grant access to on Seller Central. 
+		
 \end{itemize}
 
 \subsection*{Software Design Intern} 
@@ -146,23 +145,21 @@ Oakland University - GPA: 3.96 \hfill Expected Graduation: May 2025
 \subsection*{Four Player Chess Timer App}
 
 \begin{itemize}
-	\item Creating a real-time four player chess clock application for Android and iOS using the Flutter framework to facilitate timing control for four players across different devices within the same local network. 
+	\item Created a real-time four player chess clock application for Android and iOS using the Flutter framework to facilitate timing control for four players across different devices within the same local network. 
 	\item Designed the user interface using Figma, \hspace{49152sp}Flutter's widget library to implement the interface, and Dart for additional logic.
-	% \item Deployed the app on the Apple App Store and Google Play Store, where it currently as x downloads.
 \end{itemize}
 
 \subsection*{Mandelbrot Set Visualizer}
 
 \begin{itemize}
-	\item Developed a command line tool to generate a visualization of the mandelbrot set, with customizable parameters for the resolution, zoom, and more.
-	\item Utilized C++, OpenMP and OpenCV, as well as the CMake build tool and Conan package manager.
+	\item Developed a command line tool to generate a visualization of the Mandelbrot set, with customizable parameters for the resolution, zoom, and more.
+	\item Utilized C++, OpenMP for parallelization, OpenCV for image processing, and developed using the CMake build tool and Conan package manager.
 \end{itemize}
 
 % \subsection*{Portfolio Website}
 % \begin{itemize}
 % 	\item Designed and created a responsive personal portfolio website, showcasing projects, technical skills, and other information using HTML, Sass, and JavaScript.
-% 	\item Hosting the website with an AWS Linux EC2 Instance with an S3 Bucket for storage.
-% \end{itemize}
+% 	\item Hosted the website with an AWS Linux EC2 Instance with an Apache HTTP server.% \end{itemize}
 
 % \subsection*{PgnAnalyzer}
 
@@ -191,7 +188,7 @@ Oakland University - GPA: 3.96 \hfill Expected Graduation: May 2025
 
 \vspace{.2ex}
 
-\textbf {Campus Involvement} - Various Musical Ensembles, Founder of the Rubik's Cube Club, President of the Chess Club, President of the Running Club
+\textbf {Extracurricular Involvement} - Various Musical Ensembles, Founder of the Rubik's Cube Club, President of the Chess Club, President of the Running Club
 
 \setlist[itemize]{leftmargin=*,noitemsep,topsep=.75ex}
 
@@ -206,9 +203,5 @@ Oakland University - GPA: 3.96 \hfill Expected Graduation: May 2025
 	\end{itemize}
 
 \textbf {Awards} - Jennifer Scott Scholarship, MaTilDa Award, Dean's List
-
-	\begin{itemize}
-		\item Recognized for academic excellence and leadership in the community.
-	\end{itemize}
 
 \end{document}
