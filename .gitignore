@@ -4,6 +4,6 @@
 *.fls
 *.log
 *.out
-Resume but I live at home/*
-Resume no hyperlinks/*
 .DS_Store
+private/*
+replacements.txt
